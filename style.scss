@@ -17,7 +17,7 @@ $color: #00f2ff;
 
 
 body {
-    background: url("https://cdn.pixabay.com/photo/2021/11/14/20/08/background-6795625_1280.jpg");
+    background: url("https://cdn.pixabay.com/photo/2017/05/30/18/09/dice-2357720_1280.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,17 +41,17 @@ body {
     }
 
     h1 {
-        border: 5px solid navy;
+        border: 5px solid white;
         padding: 30px 45px;
         border-radius: 5px;
         color: #f3f321;
         font-size: 3em;
         text-shadow: 0 0 35px #f3f321, 0 0 70px #f3f321;
-        box-shadow: 0 0 10px navy,
-            0 0 10px navy,
-            0 0 10px navy, 0 0 10px inset navy,
-            0 0 10px inset navy,
-            0 0 10px inset navy;
+        box-shadow: 0 0 10px #4b85f2,
+            0 0 10px #4b85f2,
+            0 0 10px #4b85f2, 0 0 10px inset #4b85f2,
+            0 0 10px inset #4b85f2,
+            0 0 10px inset #4b85f2;
     }
 }
 
@@ -62,19 +62,19 @@ body {
     button {
         width: 150px;
         height: 50px;
-        background: greenyellow;
+        background: skyblue;
         border: none;
         border-radius: 5px;
-        box-shadow: 0 0 25px inset skyblue;
+        box-shadow: 0 0 25px inset lightblue;
         font-size: 25px;
         text-transform: capitalize;
 
         &:hover {
             color: #fff;
-            background: green;
-            box-shadow: 0 0 10px blue,
-                0 0 40px blue,
-                0 0 80px blue;
+            background: blue;
+            box-shadow: 0 0 10px #4b85f2,
+                0 0 40px #4b85f2,
+                0 0 80px #4b85f2;
             cursor: pointer;
         }
     }
